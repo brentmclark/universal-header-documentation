@@ -39,7 +39,7 @@ The header (and footer) that all SportsHub Network sites use.
         },
         accountSettingsSubItems: [
           { text: 'Account Settings SubItem 1', url: '#'}, // see Links section below
-        ]
+        ],
         tickets: {
           label: 'Tickets',
           count: 1,
