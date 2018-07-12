@@ -1,13 +1,13 @@
 # Universal Header
 The header (and footer) that all SportsHub Network sites use.
 
-- [Configuring Your Site](#Configuring-Your-Site)
-- [Running the Code Locally](#Running-the-Code-locally)
+- [Configuring Your Site](#configuring-your-site)
+- [Running the Code Locally](#running-the-code-locally)
 
 ## Configuring Your Site
 
-- [Initial Setup](#Initial-Setup)
-- [Advanced Configuration Options](#Advanced-Configuration-Options)
+- [Initial Setup](#initial-setup)
+- [Advanced Configuration Options](#advanced-configuration-options)
 
 
 ### Initial Setup
@@ -99,9 +99,9 @@ The header (and footer) that all SportsHub Network sites use.
 
 ### Advanced Configuration Options
 
-- [Config Object](#Config-Object)
-- [Links](#Links)
-- [Wallet API URL](#Wallet-API-URL)
+- [Config Object](#config-object)
+- [Links](#links)
+- [Wallet API URL](#wallet-api-url)
 
 ---
 #### Config Object
@@ -134,7 +134,7 @@ options :: one of the following
 
 ##### navItems
 
-An `array` of [`Link`](#Links) objects
+An `array` of [`Link`](#links) objects
 
 ##### helpUrl
 
@@ -164,7 +164,7 @@ The function will receive the following arguments:
 
 ##### accountSettingsSubItems
 
-An `array` of [`Link`](#Links) objects
+An `array` of [`Link`](#links) objects
 
 > *`optional` - If not provided, no sublinks will be rendered*
 
@@ -239,15 +239,15 @@ var config = {
 
 
 ## Running the Code Locally
-- [Requirements](#Requirements)
-- [Getting Started](#Getting-Started)
-- [Common Tasks](#Common-Tasks)
-  - [Run Code in Dev Mode](#Run-Code-in-Dev-Mode)
-  - [Triggering a logged-in state](#Triggering-a-logged-in-state)
-- [Uncommon Tasks](#Uncommon-Tasks)
-  - [Run Production Build](#Run-Production-Build)
-  - [Serve Production Build Locally](#Serve-Production-Build-Locally)
-  - [Serve Sample Site Locally](#Serve-Sample-Site-Locally)
+- [Requirements](#requirements)
+- [Getting Started](#getting-started)
+- [Common Tasks](#common-tasks)
+  - [Run Code in Dev Mode](#run-code-in-dev-mode)
+  - [Triggering a logged-in state](#triggering-a-logged-in-state)
+- [Uncommon Tasks](#uncommon-tasks)
+  - [Run Production Build](#run-production-build)
+  - [Serve Production Build Locally](#serve-production-build-locally)
+  - [Serve Sample Site Locally](#sServe-sample-site-locally)
 
 ### Requirements
 In order to run this project successfully you'll need the following:
@@ -258,11 +258,11 @@ In order to run this project successfully you'll need the following:
 
 ### Getting Started
 ---
-Make sure you have [installed all the requirements](#Requirements) and then:
+Make sure you have [installed all the requirements](#requirements) and then:
 
 `yarn`
 
-After that, you'll probably want to [run the code in dev mode](#Run-Code-In-Dev-Mode)
+After that, you'll probably want to [run the code in dev mode](#run-code-in-dev-mode)
 
 ### Common Tasks
 ---
@@ -282,10 +282,10 @@ After that, you'll probably want to [run the code in dev mode](#Run-Code-In-Dev-
 `yarn build`
 
 #### Serve Production Build Locally
-1. Make sure you [run the production build](#Run-Production-Build) first
+1. Make sure you [run the production build](#run-production-build) first
 2. run `serve -s build`
 
 #### Serve Sample Site Locally
-1. Make sure you [serve the production build locally](#Serve-Production-Build_locally) first
+1. Make sure you [serve the production build locally](#serve-production-build-locally) first
 2. Open another terminal window
 3. `serve -s sample-site -p 5001`
